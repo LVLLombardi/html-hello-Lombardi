@@ -13,6 +13,13 @@ header {
     margin-bottom: 20px;
 }
 
+.header-content {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 15px;
+    text-align: left;
+}
+
 header h1 {
     margin: 0;
     font-size: 30px;
@@ -53,4 +60,20 @@ header h1 {
     object-fit: cover;
     object-position: center;
     display: block;
+}
+
+.date {
+    color: #999;
+    font-size: 14px;
+}
+
+.post-footer {
+    padding: 15px;
+    border-top: 1px solid #efefef;
+}
+
+.post-footer p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.5;
 }
